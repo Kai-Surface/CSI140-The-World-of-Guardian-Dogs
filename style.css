@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+html {
+    background-color: black;
+    min-height: 100vh;
+    font-family: "Crimson Text";
+    margin: 0;
+    justify-content: center;
+}
+
+body{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h1{
+    background-color: grey;
+    padding: 1rem;
+}
+
+header{
+    text-align: center;
+    float: center;
+}
+
+header, header a{
+    background-color: rgb(30,30,30);
+    text-align: center;
+    color: rgb(255, 222, 160);
+    display: grid;
+    display: flex;
+    gap: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+    opacity: .75;
+    font-size: 150%;
+    text-shadow: 2px 1px rgb(94, 94, 94);
+    border-radius: .5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.hero-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    text-shadow: 2px 1px rgb(94, 94, 94);
+}
+
+.preface{
+    display: grid;
+    grid-template-rows: auto;
+    background-color: rgb(50, 50, 50);
+    padding: 1em;
+    border-radius: .5px;
+    border-style: solid;
+    border-color: orange;
+}
+
+.cave .canem{
+    height: 40%;
+    width: 40%;
+    padding-left: 29.5%;
+    padding-right: 100%;
+    margin: 1em;
+}
+
+.breeds{
+    display: grid;
+    grid-template-rows: auto;
+    background-color: rgb(50, 50, 50);
+    padding: 1em;
+    border-radius: .5px;
+    border-style: solid;
+    border-color: orange;
+}
+
+.imag .images{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 1em;
+}
+
+.rajapalyam{
+    grid-column: span 4;
+}
+
+.kangal{
+    grid-column: 5 / span 4;
+    padding-top: 5%;
+}
+
+.corso{
+    grid-column: 9 / span 4;
+}
+
+.breeds-section{
+    display: grid;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: black;
+} 
+
+.grid-gsd , .grid-mal, .grid-giant, .grid-beau, .grid-akita, .grid-dobe{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 1em;
+}
+
+.giant-schnauzer-img{
+    height: 75%;
+    width: 75%;
+}
+
+.akita-image{
+    height: 555%;
+    width: 555%
+}
+
+.breeds-section .german-shepherd-img{
+    grid-column: span 6;
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.breeds-section .german-shepherd-paragraph{
+    grid-column: 8 / span 5;
+    text-align: center;
+    padding: 0.3em; 
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    background-color: rgb(50, 50, 50);
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin: auto;
+}
+
+.breeds-section .malinois-img{
+    grid-column: 8 / span 5;
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.breeds-section .malinois-paragraph{
+    grid-column: span 6;
+    text-align: center;
+    padding: 0.3em; 
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    background-color: rgb(50, 50, 50);
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin: auto;
+}
+
+.breeds-section .giant-schnauzer-img{
+    grid-column: span 6;
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.breeds-section .giant-schnauzer-paragraph{
+    grid-column: 8 / span 5;
+    text-align: center;
+    padding: 0.3em; 
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    background-color: rgb(50, 50, 50);
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin: auto;
+}
+
+.breeds-section .beauceron-img{
+    grid-column: 8 / span 5;
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.breeds-section .beauceron-paragraph{
+    grid-column: span 6;
+    text-align: center;
+    padding: 0.3em; 
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    background-color: rgb(50, 50, 50);
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin: auto;
+}
+
+.breeds-section .american-akita-img{
+    grid-column: span 6;
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.breeds-section .american-akita-paragraph{
+    grid-column: 8 / span 5;
+    text-align: center;
+    padding: 0.3em; 
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    background-color: rgb(50, 50, 50);
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin: auto;
+}
+
+.breeds-section .dobermann-img{
+    grid-column: 8 / span 5;
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.breeds-section .dobermann-paragraph{
+    grid-column: span 6;
+    text-align: center;
+    padding: 0.3em; 
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    background-color: rgb(50, 50, 50);
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin: auto;
+}
+
+.odyssey-vid{
+    margin-left: 30.5%;
+    margin-right: 30.5%;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: orange;
+}
+
+.odyssey-description{
+    height: auto;
+    width: 558.5px;
+    color: rgb(50, 50, 50);
+    background-color: white;
+    padding: 1px;
+    margin-top: -22px;
+}
+
+.ppd-paragraph{
+    display: grid;
+    grid-template-rows: auto;
+    background-color: rgb(50, 50, 50);
+    padding: 1em;
+    margin: 1em;
+    border-radius: .5px;
+    border-style: solid;
+    border-color: orange;
+}
+
+.list{
+    text-align: left;
+}
+
+.form{
+    padding:1em;
+}
+
+.table{
+    margin-left: 33%;
+    padding: 1em;
+}
+
+.footer, footer a{
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 222, 160);
+    text-align: center;
+}
